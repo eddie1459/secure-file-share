@@ -15,7 +15,7 @@ const FileUpload = () => {
         formData.append("message", message);
         formData.append("phoneNumber", phoneNumber);
 
-        await axios.post("http://localhost:4000/api/upload", formData, {
+        await axios.post(`/api/upload`, formData, {
             headers: { Authorization: `Bearer ${localStorage.getItem("token")}` }
         }).then(x => {
             alert(x.data.message)

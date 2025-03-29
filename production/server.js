@@ -4,8 +4,12 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const authRoutes = require("./routes/authRoutes");
 const uploadRoutes = require("./routes/uploadRoutes");
+const path = require("path");
 
 const app = express();
+
+app.use(express.static(path.join(__dirname, 'build')));
+
 app.use(express.json());
 app.use(cors());
 

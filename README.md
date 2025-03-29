@@ -24,8 +24,8 @@ I tested it with Firefox, Safari and Chrome, for some reason the version of Chro
 # Testing application
 
 There is a postman collection provided at the root of the project that has calls for:
-- Registering a user: http://localhost:4000/api/auth/register
-- Log In User: http://localhost:4000/api/auth/login
+- Registering a user: http://localhost:8081/api/auth/register
+- Log In User: http://localhost:8081/api/auth/login
 
 You will need to run the register call once to get a user into the system
 
