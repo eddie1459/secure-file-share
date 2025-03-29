@@ -34,3 +34,5 @@ Start the backend by cd into the `backend` folder and running `npm start`
 Start the frontend by cd into the `frontend` folder and running `npm start`
 
 This should start the application up and you can browse to http://localhost:3000
+
+You can see a live version deployed here: http://secure-file-share-env-1.eba-vcqqqpk6.us-east-1.elasticbeanstalk.com/
